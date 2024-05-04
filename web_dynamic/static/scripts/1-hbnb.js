@@ -1,4 +1,5 @@
-document.ready(function () {
+/* global $ */
+$(document).ready(function () {
 	const amenities = {};
 	$("li input[type=checkbox]").change(function () {
 		if (this.checked) {
